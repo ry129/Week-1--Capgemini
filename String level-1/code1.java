@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class string1{
+	public static boolean equal(String s1 , String s2){
+		if(s1.equals(s2)){
+			return true;
+		}
+		return false;
+	}
+	public static void main(String[]args){
+		Scanner sc=new Scanner(System.in);
+		String s1=sc.next();
+		String s2=sc.next();
+		System.out.println (string1.equal(s1,s2));
+		
+	}
+}
+		
